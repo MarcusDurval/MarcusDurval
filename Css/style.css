@@ -12,11 +12,10 @@ header{
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 3rem;
-
-   
 }
 
 nav a {
@@ -28,3 +27,11 @@ nav a {
 a{
     color: blue;
 }
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
